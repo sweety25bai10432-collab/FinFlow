@@ -1,0 +1,6 @@
+{
+  "name": "FinFlow AI - Personal Expense Tracker",
+  "description": "Full-stack personal AI expense tracker with smart Gemini auto-categorization, spending analysis & predictions, interactive Chart.js reports, and secure authentication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,621 @@
+{
+  "users": [
+    {
+      "id": "demo-user-123",
+      "name": "Alex Johnson",
+      "email": "demo@finflow.ai",
+      "passwordHash": "$2b$10$8GPe6VsPgfoUdGNwEBaJHOVSFOFewWu07F0oOhKoL8tYf5mleb9dy",
+      "monthlyBudget": 10000,
+      "categoryBudgets": {
+        "Food & Dining": 650,
+        "Shopping & Retail": 400,
+        "Housing & Rent": 1600,
+        "Transportation": 300,
+        "Utilities & Bills": 250,
+        "Entertainment & Leisure": 200,
+        "Personal Care & Fitness": 150
+      },
+      "currency": "₹",
+      "createdAt": "2026-10-10T07:55:22.744Z"
+    }
+  ],
+  "expenses": [
+    {
+      "userId": "demo-user-123",
+      "description": "Petrol pump",
+      "amount": 500,
+      "category": "Transportation",
+      "date": "2026-10-09",
+      "paymentMethod": "Digital Wallet",
+      "notes": "Added via Voice Assistant (English)",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791642884998-wugs86",
+      "createdAt": "2026-10-10T14:34:44.998Z"
+    },
+    {
+      "userId": "demo-user-123",
+      "description": "Groceries at supermarket",
+      "amount": 1500,
+      "category": "Food & Dining",
+      "date": "2026-10-09",
+      "paymentMethod": "Credit Card",
+      "notes": "Added via Voice Assistant (English)",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791642878885-fyfta5",
+      "createdAt": "2026-10-10T14:34:38.885Z"
+    },
+    {
+      "userId": "demo-user-123",
+      "description": "Dmart Groceries",
+      "amount": 1200,
+      "category": "Shopping & Retail",
+      "date": "2026-10-09",
+      "paymentMethod": "Digital Wallet",
+      "notes": "Added via Voice Assistant (Hinglish)",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791640420292-e3na9i",
+      "createdAt": "2026-10-10T13:53:40.292Z"
+    },
+    {
+      "userId": "demo-user-123",
+      "description": "On dinner with friends",
+      "amount": 45,
+      "category": "Food & Dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Credit Card",
+      "notes": "Added via Voice Assistant (English)",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791640415483-v9sgk0",
+      "createdAt": "2026-10-10T13:53:35.483Z"
+    },
+    {
+      "userId": "demo-user-123",
+      "description": "Spent   dinner with friends yesterday",
+      "amount": 45,
+      "category": "Food & Dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Credit Card",
+      "notes": "Added via Voice Assistant (English)",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791639930328-1w0b0q",
+      "createdAt": "2026-10-10T13:45:30.328Z"
+    },
+    {
+      "userId": "demo-user-123",
+      "description": "L Dmart     grocery  Google Pay",
+      "amount": 1200,
+      "category": "Food & Dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Credit Card",
+      "notes": "Added via Voice Assistant (Hinglish)",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791639918310-kg5x85",
+      "createdAt": "2026-10-10T13:45:18.310Z"
+    },
+    {
+      "userId": "demo-user-123",
+      "description": "L Dmart     grocery",
+      "amount": 1200,
+      "category": "Food & Dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Credit Card",
+      "notes": "Added via Voice Assistant (Hinglish)",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791639518171-ke2qet",
+      "createdAt": "2026-10-10T13:38:38.171Z"
+    },
+    {
+      "userId": "demo-user-123",
+      "description": "Dmart     grocery  Google Pay",
+      "amount": 1200,
+      "category": "Food & Dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Credit Card",
+      "notes": "Added via Voice Assistant (Hinglish)",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791639341271-fwm6ua",
+      "createdAt": "2026-10-10T13:35:41.271Z"
+    },
+    {
+      "userId": "demo-user-123",
+      "description": "Spent   groceries at Trader Joe today",
+      "amount": 35,
+      "category": "Food & Dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Credit Card",
+      "notes": "Added via Voice Assistant",
+      "aiCategorized": true,
+      "type": "expense",
+      "id": "exp-1791618965609-8684k0",
+      "createdAt": "2026-10-10T07:56:05.609Z"
+    },
+    {
+      "id": "inc-1",
+      "userId": "demo-user-123",
+      "type": "income",
+      "description": "Bi-Weekly Tech Salary (Direct Deposit)",
+      "amount": 4250,
+      "category": "Investments & Savings",
+      "date": "2026-10-05",
+      "paymentMethod": "Bank Transfer",
+      "account": "Chase Total Checking",
+      "tags": [
+        "#salary",
+        "#paycheck"
+      ],
+      "notes": "Monthly regular employment earnings",
+      "aiCategorized": true,
+      "createdAt": "2026-10-05T07:55:22.745Z"
+    },
+    {
+      "id": "inc-2",
+      "userId": "demo-user-123",
+      "type": "income",
+      "description": "Freelance UX Architecture Consulting",
+      "amount": 950,
+      "category": "Investments & Savings",
+      "date": "2026-09-28",
+      "paymentMethod": "Bank Transfer",
+      "account": "Chase Total Checking",
+      "tags": [
+        "#freelance",
+        "#sidegig"
+      ],
+      "notes": "Design sprint milestone",
+      "aiCategorized": true,
+      "createdAt": "2026-09-28T07:55:22.745Z"
+    },
+    {
+      "id": "exp-1",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Trader Joe's Grocery Haul",
+      "amount": 114.5,
+      "category": "Food & Dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#groceries",
+        "#food"
+      ],
+      "notes": "Weekly fresh fruits, veggies, and pantry items",
+      "receiptItems": [
+        {
+          "name": "Organic Bananas & Berries",
+          "price": 14.2
+        },
+        {
+          "name": "Sourdough & Greek Yogurt",
+          "price": 18.5
+        },
+        {
+          "name": "Salmon Filets & Veggies",
+          "price": 42
+        },
+        {
+          "name": "Pantry Goods & Snacks",
+          "price": 39.8
+        }
+      ],
+      "taxAmount": 7.5,
+      "aiCategorized": true,
+      "createdAt": "2026-10-10T04:55:22.745Z"
+    },
+    {
+      "id": "exp-2",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Philz Mint Mojito Iced Coffee",
+      "amount": 9.75,
+      "category": "Food & Dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Digital Wallet",
+      "account": "Cash Physical Wallet",
+      "tags": [
+        "#coffee",
+        "#discretionary"
+      ],
+      "notes": "Morning coffee with pastry",
+      "aiCategorized": true,
+      "createdAt": "2026-10-10T01:55:22.745Z"
+    },
+    {
+      "id": "exp-3",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Shell Clean Gasoline Fuel",
+      "amount": 52.8,
+      "category": "Transportation",
+      "date": "2026-10-09",
+      "paymentMethod": "Debit Card",
+      "account": "Chase Total Checking",
+      "tags": [
+        "#fuel",
+        "#car"
+      ],
+      "notes": "11.5 gallons regular fuel",
+      "aiCategorized": true,
+      "createdAt": "2026-10-09T07:55:22.745Z"
+    },
+    {
+      "id": "exp-4",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Sweetgreen Warm Harvest Bowl",
+      "amount": 18.45,
+      "category": "Food & Dining",
+      "date": "2026-10-09",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#lunch",
+        "#healthy"
+      ],
+      "notes": "Quick workday lunch",
+      "aiCategorized": true,
+      "createdAt": "2026-10-09T03:07:22.745Z"
+    },
+    {
+      "id": "exp-5",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Downtown Loft Monthly Rent",
+      "amount": 1550,
+      "category": "Housing & Rent",
+      "date": "2026-10-08",
+      "paymentMethod": "Bank Transfer",
+      "account": "Chase Total Checking",
+      "tags": [
+        "#rent",
+        "#fixed"
+      ],
+      "isRecurring": true,
+      "recurringFrequency": "monthly",
+      "notes": "Apartment #402 rent",
+      "aiCategorized": true,
+      "createdAt": "2026-10-08T07:55:22.745Z"
+    },
+    {
+      "id": "exp-6",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Equinox Gym Monthly Membership",
+      "amount": 145,
+      "category": "Personal Care & Fitness",
+      "date": "2026-10-08",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#fitness",
+        "#subscription"
+      ],
+      "isRecurring": true,
+      "recurringFrequency": "monthly",
+      "notes": "All-access fitness membership",
+      "aiCategorized": true,
+      "createdAt": "2026-10-08T00:43:22.745Z"
+    },
+    {
+      "id": "exp-7",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Uber Ride to SFO Airport",
+      "amount": 38.6,
+      "category": "Transportation",
+      "date": "2026-10-07",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#travel",
+        "#rideshare",
+        "#reimbursable"
+      ],
+      "notes": "Airport terminal ride",
+      "aiCategorized": true,
+      "createdAt": "2026-10-07T07:55:22.745Z"
+    },
+    {
+      "id": "exp-8",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Chipotle Mexican Grill Burrito Bowl",
+      "amount": 14.2,
+      "category": "Food & Dining",
+      "date": "2026-10-06",
+      "paymentMethod": "Debit Card",
+      "account": "Chase Total Checking",
+      "tags": [
+        "#dinner"
+      ],
+      "notes": "Chicken bowl with guacamole",
+      "aiCategorized": true,
+      "createdAt": "2026-10-06T07:55:22.745Z"
+    },
+    {
+      "id": "exp-9",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Netflix 4K Ultra Subscription",
+      "amount": 22.99,
+      "category": "Entertainment & Leisure",
+      "date": "2026-10-05",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#subscription",
+        "#streaming"
+      ],
+      "isRecurring": true,
+      "recurringFrequency": "monthly",
+      "notes": "Monthly 4K streaming plan",
+      "aiCategorized": true,
+      "createdAt": "2026-10-05T07:55:22.745Z"
+    },
+    {
+      "id": "exp-10",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Amazon Prime Order: Ergonomic Mouse",
+      "amount": 68.5,
+      "category": "Shopping & Retail",
+      "date": "2026-10-04",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#work",
+        "#electronics"
+      ],
+      "notes": "Logitech wireless ergonomic mouse",
+      "aiCategorized": true,
+      "createdAt": "2026-10-04T07:55:22.745Z"
+    },
+    {
+      "id": "exp-11",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "PG&E Electric & Clean Energy Bill",
+      "amount": 112.4,
+      "category": "Utilities & Bills",
+      "date": "2026-10-03",
+      "paymentMethod": "Bank Transfer",
+      "account": "Chase Total Checking",
+      "tags": [
+        "#utilities",
+        "#electric"
+      ],
+      "isRecurring": true,
+      "recurringFrequency": "monthly",
+      "notes": "Residential electric bill",
+      "aiCategorized": true,
+      "createdAt": "2026-10-03T07:55:22.745Z"
+    },
+    {
+      "id": "exp-12",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Target Home Supplies & Essentials",
+      "amount": 86.3,
+      "category": "Shopping & Retail",
+      "date": "2026-10-01",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#home",
+        "#shopping"
+      ],
+      "notes": "Cleaning essentials & kitchen towels",
+      "aiCategorized": true,
+      "createdAt": "2026-10-01T07:55:22.745Z"
+    },
+    {
+      "id": "exp-13",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Sonic Gigabit Fiber Internet",
+      "amount": 65,
+      "category": "Utilities & Bills",
+      "date": "2026-09-29",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#internet",
+        "#utilities"
+      ],
+      "isRecurring": true,
+      "recurringFrequency": "monthly",
+      "notes": "High speed fiber home connection",
+      "aiCategorized": true,
+      "createdAt": "2026-09-29T07:55:22.745Z"
+    },
+    {
+      "id": "exp-14",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Delta Airlines Flight Ticket",
+      "amount": 285,
+      "category": "Travel & Vacation",
+      "date": "2026-09-25",
+      "paymentMethod": "Credit Card",
+      "account": "Amex Gold Preferred Card",
+      "tags": [
+        "#flight",
+        "#vacation"
+      ],
+      "notes": "Trip to Seattle conference",
+      "aiCategorized": true,
+      "createdAt": "2026-09-25T07:55:22.745Z"
+    },
+    {
+      "id": "exp-15",
+      "userId": "demo-user-123",
+      "type": "expense",
+      "description": "Vanguard Index Fund Automatic Deposit",
+      "amount": 300,
+      "category": "Investments & Savings",
+      "date": "2026-09-22",
+      "paymentMethod": "Bank Transfer",
+      "account": "Chase Total Checking",
+      "tags": [
+        "#investing",
+        "#etf"
+      ],
+      "isRecurring": true,
+      "recurringFrequency": "monthly",
+      "notes": "Monthly automated VOO ETF allocation",
+      "aiCategorized": true,
+      "createdAt": "2026-09-22T07:55:22.745Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc-1",
+      "userId": "demo-user-123",
+      "name": "Chase Total Checking",
+      "type": "checking",
+      "balance": 4850.25,
+      "accountNumberLast4": "4821",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "acc-2",
+      "userId": "demo-user-123",
+      "name": "Amex Gold Preferred Card",
+      "type": "credit",
+      "balance": -1124.5,
+      "accountNumberLast4": "9012",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "acc-3",
+      "userId": "demo-user-123",
+      "name": "High Yield Savings (Ally)",
+      "type": "savings",
+      "balance": 14200,
+      "accountNumberLast4": "3318",
+      "color": "#10b981"
+    },
+    {
+      "id": "acc-4",
+      "userId": "demo-user-123",
+      "name": "Cash Physical Wallet",
+      "type": "cash",
+      "balance": 180,
+      "color": "#8b5cf6"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub-1",
+      "userId": "demo-user-123",
+      "name": "Netflix Premium 4K",
+      "amount": 22.99,
+      "category": "Entertainment & Leisure",
+      "billingCycle": "monthly",
+      "nextBillingDate": "2026-10-14",
+      "status": "active",
+      "autoRenewal": true,
+      "notes": "Family plan stream"
+    },
+    {
+      "id": "sub-2",
+      "userId": "demo-user-123",
+      "name": "Spotify Premium Family",
+      "amount": 16.99,
+      "category": "Entertainment & Leisure",
+      "billingCycle": "monthly",
+      "nextBillingDate": "2026-10-21",
+      "status": "active",
+      "autoRenewal": true
+    },
+    {
+      "id": "sub-3",
+      "userId": "demo-user-123",
+      "name": "Equinox Gym & Spa",
+      "amount": 145,
+      "category": "Personal Care & Fitness",
+      "billingCycle": "monthly",
+      "nextBillingDate": "2026-10-17",
+      "status": "active",
+      "autoRenewal": true
+    },
+    {
+      "id": "sub-4",
+      "userId": "demo-user-123",
+      "name": "Claude Pro + AI Assistant",
+      "amount": 20,
+      "category": "Education & Learning",
+      "billingCycle": "monthly",
+      "nextBillingDate": "2026-10-25",
+      "status": "review",
+      "autoRenewal": false,
+      "notes": "Consider switching or pausing"
+    }
+  ],
+  "savingsGoals": [
+    {
+      "id": "goal-1",
+      "userId": "demo-user-123",
+      "title": "6-Month Emergency Safety Fund",
+      "targetAmount": 18000,
+      "currentAmount": 14200,
+      "deadline": "2026-12-31",
+      "category": "Security",
+      "color": "#10b981"
+    },
+    {
+      "id": "goal-2",
+      "userId": "demo-user-123",
+      "title": "Tokyo Spring Vacation 🌸",
+      "targetAmount": 3500,
+      "currentAmount": 2150,
+      "deadline": "2027-04-10",
+      "category": "Travel",
+      "color": "#f43f5e"
+    },
+    {
+      "id": "goal-3",
+      "userId": "demo-user-123",
+      "title": "M3 MacBook Pro Upgrade",
+      "targetAmount": 2200,
+      "currentAmount": 1850,
+      "deadline": "2026-11-25",
+      "category": "Tech",
+      "color": "#6366f1"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alt-1",
+      "type": "overbudget",
+      "severity": "warning",
+      "title": "Food & Dining at 88% of limit",
+      "message": "You have spent $572 of your $650 dining budget with 21 days left in the month.",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "alt-2",
+      "type": "upcoming_bill",
+      "severity": "info",
+      "title": "Netflix Renewal in 4 days",
+      "message": "Upcoming automatic charge of $22.99 on your Amex Gold Card.",
+      "date": "2026-10-10"
+    },
+    {
+      "id": "alt-3",
+      "type": "anomaly",
+      "severity": "warning",
+      "title": "Higher Than Average Utilities",
+      "message": "City Power bill was $175 vs 3-month average of $115.",
+      "date": "2026-10-07"
+    }
+  ]
+}
