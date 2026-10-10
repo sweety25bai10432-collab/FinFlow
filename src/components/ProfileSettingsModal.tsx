@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext.js';
 import { useTheme } from '../context/ThemeContext.js';
-import { downloadExpenseReportPDF, downloadTransactionDetailsPDF } from '../utils/pdfGenerator.js';
+import { downloadExpenseReportPDF, downloadTransactionDetailsPDF } from '../utils/pdfExport.js';
 import { SpendingSummary, Expense } from '../types.js';
 import { AccountsCashFlowView } from './AccountsCashFlowView.js';
 import { SubscriptionManagerView } from './SubscriptionManagerView.js';

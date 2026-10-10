@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Expense, ExpenseCategory, EXPENSE_CATEGORIES } from '../types.js';
 import { getCategoryStyle } from '../utils/categoryTheme.js';
-import { downloadTransactionDetailsPDF } from '../utils/pdfGenerator.js';
+import { downloadTransactionDetailsPDF } from '../utils/pdfExport.js';
 import {
     Search,
     Filter,
